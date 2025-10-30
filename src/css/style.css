@@ -1,0 +1,26 @@
+* {
+    font-family: "Roboto", system-ui;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-bottom: 1rem;
+}  
+
+/* inputs styles */
+input, textarea {
+    border: 1px solid rgb(159, 159, 159);
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.1rem;
+    padding-left: 0.4rem;
+    transition: .2s ease;
+}
+
+textarea {
+    height: 2.5rem;
+}
